@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+body  {
+  margin: 0;
+  font-family: 'Tajawal', sans-serif;
+  /* changing font size use ems which is a percentage of the font */
+  font-size: 1.25em;
+}
+header {
+  /* how do we make the height specific to devices */
+  min-height:100vh;
+  background-color: white;
+  background-image: url("https://i.ytimg.com/vi/ii3p9zjAMQI/maxresdefault.jpg");
+  background-size: cover;
+}
+nav {
+  background-color:#2c2e30;
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li {
+  display: inline-block;
+  padding:  2em;
+}
+nav ul {
+  margin:0;
+}
+header main {
+  padding-top: 3em;
+  text-align:center;
+  font-size: 1.25em;
+  background-image: url("https://i.ytimg.com/vi/ii3p9zjAMQI/maxresdefault.jpg");
+  background-size: cover;
+}
+h1  {
+  /* if you wanted to change case */
+  /* text-transform: uppercase; */
+  font-size:2.0em;
+  letter-spacing: 0.5em;
+  /* text-shadow: 0 1px grey; */
+}
+header img{
+  /* padding: 1em; */
+  padding-top: 1em;
+  width: 10%;
+  border-radius: 50%;
+  border: .5px black solid;
+  border: 4px gold solid;
+}
+
+.about-me {
+  padding: 3em 1em;
+  line-height: 1.25;
+  background-color: grey;
+  color: white;
+}
+
+.content {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+ }
+
+.projects{
+  color: white;
+  padding: 3em 0;
+  background-color: #303030;
+  background-image: url("https://images.thewest.com.au/publication/S-1812230/1513842372381_Cri_ICC_16-9_13206354_1812230_20171221171232b0aaeead-cb16-49d8-b167-e10daad7d1d4.jpg_sd_1280x720.jpg?imwidth=1024");
+  background:size cover;
+  }
+
+.projects img {
+  width:45%;
+  padding: 32px 32px 32px 0;
+  background-image: url("https://images.thewest.com.au/publication/S-1812230/1513842372381_Cri_ICC_16-9_13206354_1812230_20171221171232b0aaeead-cb16-49d8-b167-e10daad7d1d4.jpg_sd_1280x720.jpg?imwidth=1024");
+  background:size cover;
+
+@media only screen and (max-width: 770px) {
+  header img {
+    width: 300px;
+  }
